@@ -1,0 +1,81 @@
+@media screen and (max-width: 600px) {
+    
+    header{
+        flex-direction: column;
+
+    }
+    header h1{
+        margin-left: 5rem;
+    }
+    h2,header h2 a{
+        font-size: 15px;
+        padding: 5px;
+
+    }
+    header div{
+       justify-content: space-between;
+    }
+    #indexMain{
+        margin: 70px;
+    }
+    #indexMain div{
+        display: flex;  
+        flex-direction: column;
+    }
+    #indexMain a {
+        margin: 10px;
+    }
+    
+
+    .UI__newWord{
+        margin: 20px;
+    }
+    .UI__newWord button{
+        margin: 5px;
+    }
+
+
+    #gameMain{
+        flex-direction: column;
+    }
+    #gameMain>div{
+        width: auto;
+    }
+    .UiGame{
+        margin-left: 20px;
+        margin-top: 0px;
+        display: flex;
+        flex-direction: row;
+    }
+    #exit,#reload{ 
+    font-size: 15px;
+    margin: 2px;
+     }
+    #reload{
+       width: 250px;
+        
+    }
+    .letrasNo{
+        font-size: 20px;
+        width: 100px;
+        line-height: 5px;
+    }
+    .letraGenerada{
+        font-size: 30px;
+    }
+    #TempKey{
+        margin-top: 20px;
+    }
+}
+@media screen and (max-width: 1064px) {
+    #TempKey{
+        width: 200px;
+    }
+}
+@media screen and (max-width:900px) {
+    
+    #TempKey{
+        width: 100px;
+    }
+   
+}

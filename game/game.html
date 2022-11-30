@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html lang="es">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="../game/styleGame.css" />
+ 
+  </head>
+  <body>
+    <header>
+      <h1>Juego Del Ahorcado-ALuraOne challenge</h1>
+      <div>
+        <h2>Carlos Nicolás Brambilla</h2>
+        <h2>
+          <a href="https://www.linkedin.com/in/nicolas-brambilla-0992b719a/">Linkedin profile</a>
+        </h2>
+      </div>
+    </header>
+    <main id="gameMain">
+
+      <div class="UiGame">
+        <button id="reload" onclick="reloadGame()">Reiniciar juego</button>
+        <a id="exit" href="../index.html">Exit game</a>
+        <div class="result">
+          <p class="lost">Game Lost</p>
+          <p class="win">game Win</p>
+        </div>
+      </div>
+    
+      <div>
+        <div class="imagenAhorcado">
+          <canvas id="paloBase" width="300" height="300"></canvas>
+          <div class="letrasNo"></div>
+          <script src="../game/draw.js"></script>
+        </div>
+        <div class="palabra"></div>
+      </div>
+
+      <div>
+        <div id="TempKey"></div>
+        <script src="../game/words.js"></script>
+        <script src="../game/game.js"></script>
+        <script src="../game/screenKeys.js"></script>
+      </div>
+
+    
+    </main>
+  </body>
+</html>

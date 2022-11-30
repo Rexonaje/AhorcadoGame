@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html lang="es">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8" />
+    
+      <link rel="stylesheet" href="../game/new_world.css" />
+    
+    
+  </head>
+  <body>
+    <header>
+      <h1>Juego Del Ahorcado-ALuraOne challenge</h1>
+	  <div>
+      <h2>Carlos Nicolás Brambilla</h2>
+        <h2>
+          <a href="https://www.linkedin.com/in/nicolas-brambilla-0992b719a/">Linkedin profile</a>
+        </h2>
+      </div>
+    </header>
+    <main id="newWordMain">
+      <div class="UI__newWord">
+        <div class="wording">
+          <textarea
+            oninput="this.value = this.value.toUpperCase();"
+            name="word"
+            id="word"
+            cols="30"
+            rows="10"
+          ></textarea>
+          <p>
+            Cantidad de palabras hasta ahora:<span id="cantidadWords"></span>
+          </p>
+        </div>
+        <button onclick="addWord()">Agregar</button>
+        <a href="../game/game.html">
+          <button onclick="done()">Done</button>
+        </a>
+
+        <script src="../game/words.js"></script>
+        <script src="../game/new_words.js"></script>
+      </div>
+    </main>
+  </body>
+</html>

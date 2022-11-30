@@ -1,0 +1,146 @@
+body{
+	padding: 0%;
+	margin: 0%;
+}
+header{
+	background-color: #0A3871;
+	color: #f0ecec;
+	display:flex;
+}
+header h1{
+	margin: 0%;
+	padding:20px;
+	font-size: 20px;
+	align-items: center;
+	flex-grow: 2;
+}
+header div{
+	display: flex;
+}
+header a{
+	margin: 5px;
+    color: #f0ecec;
+	margin: 0 20px;
+}
+main>div{
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width:500px;
+}
+main{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	
+}
+.UiGame{
+	margin-left: 40px;
+	margin-top: 100px;
+}
+
+
+#exit,#reload{
+	background-color:#104381;
+	text-decoration: none;
+	text-align: center;
+	color: #f0ecec;
+
+	width: 200px;
+	height: auto;
+	border: none;
+	border-radius: 5px;
+	margin:30px;
+	font-size: 20px;
+	padding: 5px;
+}
+
+.imagenAhorcado{
+	margin:0 ;
+	display: flex;
+	flex-direction:column;
+	flex-grow: 3;
+}
+	#paloBase{
+		margin: 40px;
+		width: 350px;
+		height: auto;
+		padding:5px;
+		border: 2px solid #0A3871;
+	}
+	.result{
+		display: flex;
+		flex-direction: row;
+		visibility: hidden;
+	}
+
+.cartelResultado{
+	display: flex;
+	flex-direction: row;
+}
+	.win{ 
+		background-color: #28c54a;
+	}
+	.lost{
+		background-color: #d22f2f;
+	}
+	.win,.lost{
+		
+		color: #ecebeb;
+		margin: 2px;
+		padding: 10px;
+		border-radius: 5px;
+		font-size: 20px;
+		
+	}
+	
+.palabra{
+	display: flex;
+	margin-top: 1px;
+}
+	.letraGenerada{
+		display: block;
+		flex-direction: column;
+		font-size: 40px;
+		padding:0px;
+		margin:0 5px;
+		visibility:hidden;
+	}
+	.letraGenerada>canvas{
+		display:block;
+		visibility:visible;
+	}
+.letrasNo{
+	display: flex;
+	height:10px;
+	width: auto;
+	padding: 5px;
+	font-weight: bold;
+	line-height: 20px;
+	font-size: 40px;
+	margin: 30px;
+}
+#TempKey{
+	display: flex;
+	width: 200px;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-top: 100px;
+}
+.keys{
+   margin:1px;
+   background-color: #104381;
+   color: #ecebeb;
+   border: none;
+   padding: 5px;
+   font-size: 15px;
+   width: 40px;
+
+}
+.keys:hover{
+margin:0.5px ;
+background-color: #104381;
+font-weight: bold
+
+}
